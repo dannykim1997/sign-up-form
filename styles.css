@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    background-image: url("https://images.unsplash.com/photo-1691145697326-aa4fa5da7174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" );
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.header {
+    /* padding-top: 20vh; */
+    margin-top: 20vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: dimgray;
+}
+
+.about {
+    background-color: goldenrod;
+}
+
+.sign-up-form {
+    background-color: cornsilk;
+}
+
+.button {
+    background-color: darksalmon;
+}
