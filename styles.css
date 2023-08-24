@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: darksalmon;
+    background-color: #e9ecef;
 }
 
 .container {
@@ -10,7 +10,7 @@ body {
 }
 
 .background {
-    background-image: url("https://images.unsplash.com/photo-1691145697326-aa4fa5da7174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" );
+    background-image: url("https://images.pexels.com/photos/2405101/pexels-photo-2405101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
     width: 60vw;
 }
@@ -27,13 +27,13 @@ body {
 }
 
 .about {
-    background-color: goldenrod;
+    background-color: #e9ecef;
     font-size: x-large;
     padding: 40px;
 }
 
 .sign-up-form {
-    background-color: cornsilk;
+    background-color: #f8f9fa;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ input:invalid {
 }
 
 input:focus {
-    background-color: green;
+    box-shadow: 2px 2px 2px #4a4e69;
 }
 
 input:valid {
@@ -67,14 +67,16 @@ input:valid {
 }
 
 .button {
-    background-color: darksalmon;
+    background-color: #e9ecef;
     padding: 40px;
     width: 100%;
     font-size: large;
 }
 
 button {
-    font-size: large;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
 }
 
 @media only screen and (max-width: 700px) {
