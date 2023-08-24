@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: darksalmon;
-
 }
 
 .container {
@@ -39,7 +38,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
-    padding: 40px;
 }
 
 .form-row {
@@ -47,11 +45,31 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.form-row input {
+    border: 1px solid black;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    background-color: green;
+}
+
+input:valid {
+    border: 1px solid green;
 }
 
 .button {
     background-color: darksalmon;
     padding: 40px;
+    width: 100%;
     font-size: large;
 }
 
